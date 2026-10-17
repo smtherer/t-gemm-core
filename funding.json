@@ -1,23 +1,57 @@
-  {
+{
   "version": "v1.0.0",
   "entity": {
-    "type": "project",
-    "name": "T-GEMM Core",
-    "description": "Multiplierless 1.58-bit ternary systolic inference accelerator in Verilog.",
-    "webpageUrl": "https://github.com/smtherer/t-gemm-core",
-    "repository": {
-      "url": "https://github.com/smtherer/t-gemm-core",
-      "type": "git"
-    }
+    "type": "individual",
+    "role": "developer",
+    "name": "Aadi Khatri",
+    "email": "aadikhatri45@gmail.com",
+    "description": "Independent open-source hardware designer building sub-watt edge AI accelerators.",
+    "webpageUrl": "https://github.com/smtherer"
   },
-  "plans": [
+  "projects": [
     {
-      "title": "Hardware Bring-Up & Tapeout",
-      "description": "Bring-up on physical FPGA gates and open-source ASIC tapeout on SkyWater 130nm via Tiny Tapeout.",
-      "amount": {
-        "currency": "INR",
-        "value": 85000
-      }
+      "guid": "t-gemm-core",
+      "name": "T-GEMM Core",
+      "description": "Multiplierless 1.58-bit ternary systolic inference accelerator in Verilog for edge AI.",
+      "webpageUrl": "https://github.com/smtherer/t-gemm-core",
+      "repositoryUrl": "https://github.com/smtherer/t-gemm-core",
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "hardware",
+        "verilog",
+        "fpga",
+        "asic",
+        "edge-ai",
+        "accelerator",
+        "open-source"
+      ]
     }
-  ]
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "bank-account",
+        "type": "bank",
+        "address": "To be provided upon grant approval",
+        "description": "Grant disbursement account"
+      }
+    ],
+    "plans": [
+      {
+        "guid": "hardware-bringup",
+        "status": "active",
+        "name": "FPGA Bring-Up & ASIC Tapeout",
+        "description": "FPGA hardware bring-up on AMD Zynq-7020 and physical ASIC tapeout on SkyWater 130nm via Tiny Tapeout.",
+        "amount": 85000,
+        "currency": "INR",
+        "frequency": "one-time",
+        "channelGuids": [
+          "bank-account"
+        ]
+      }
+    ],
+    "history": []
+  }
 }
