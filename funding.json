@@ -3,8 +3,9 @@
   "entity": {
     "type": "project",
     "name": "T-GEMM Core",
+    "description": "Multiplierless 1.58-bit ternary systolic accelerator in Verilog for edge AI.",
     "webpageUrl": "https://github.com/smtherer/t-gemm-core",
-    "description": "Multiplierless 1.58-bit ternary systolic accelerator in Verilog for edge AI."
+    "repositoryUrl": "https://github.com/smtherer/t-gemm-core"
   },
   "plans": [
     {
