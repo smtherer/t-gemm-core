@@ -1,5 +1,10 @@
 # T-GEMM Core
 
+[![RTL Verification & Gate Synthesis](https://github.com/smtherer/t-gemm-core/actions/workflows/ci.yml/badge.svg)](https://github.com/smtherer/t-gemm-core/actions/workflows/ci.yml)
+![DSP Multipliers](https://img.shields.io/badge/DSP%20Multipliers-0-blue?style=flat-square)
+![Process Target](https://img.shields.io/badge/Process-SkyWater%20130nm-orange?style=flat-square)
+
+
 A multiplierless 1.58-bit ternary systolic inference accelerator designed in synthesizable Verilog for sub-watt edge intelligence.
 
 ---
