@@ -1,0 +1,49 @@
+{
+  "version": "v1.0.0",
+  "project": {
+    "name": "T-GEMM Core",
+    "description": "Multiplierless 1.58-bit ternary systolic inference accelerator designed in synthesizable Verilog for sub-watt local edge intelligence.",
+    "website": "https://github.com/smtherer/t-gemm-core",
+    "repository": "https://github.com/smtherer/t-gemm-core",
+    "license": "Apache-2.0"
+  },
+  "team": [
+    {
+      "name": "Aadi Khatri",
+      "email": "YOUR_EMAIL_HERE",
+      "role": "Lead Hardware Designer"
+    }
+  ],
+  "funding_plans": [
+    {
+      "title": "Hardware Synthesis & Silicon Tapeout",
+      "amount": {
+        "currency": "INR",
+        "value": 85000
+      },
+      "description": "Bring-up on physical FPGA gates and open-source ASIC tapeout on SkyWater 130nm.",
+      "breakdown": [
+        {
+          "item": "AMD Zynq-7020 FPGA Development Board",
+          "cost": 30000,
+          "purpose": "Hardware synthesis and high-speed activation streaming over UART"
+        },
+        {
+          "item": "16-Channel 500MHz USB Logic Analyzer",
+          "cost": 8500,
+          "purpose": "Cycle timing verification and benchtop power measurement"
+        },
+        {
+          "item": "Tiny Tapeout MPW Shuttle Slot",
+          "cost": 38000,
+          "purpose": "SkyWater 130nm ASIC physical fabrication slot"
+        },
+        {
+          "item": "Benchtop supplies, carrier boards, and passive components",
+          "cost": 8500,
+          "purpose": "Physical breadboarding, power shunts, and signal probing"
+        }
+      ]
+    }
+  ]
+}
