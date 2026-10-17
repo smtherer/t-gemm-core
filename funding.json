@@ -1,17 +1,19 @@
 {
   "version": "v1.0.0",
   "entity": {
+    "type": "project",
     "name": "T-GEMM Core",
-    "description": "Multiplierless 1.58-bit ternary systolic accelerator in synthesizable Verilog for sub-watt edge AI inference.",
     "webpageUrl": "https://github.com/smtherer/t-gemm-core",
-    "repositoryUrl": "https://github.com/smtherer/t-gemm-core"
+    "description": "Multiplierless 1.58-bit ternary systolic accelerator in Verilog for edge AI."
   },
   "plans": [
     {
-      "title": "Hardware Bring-Up & ASIC Tapeout",
-      "amount": 85000,
-      "currency": "INR",
-      "description": "Bring-up on physical FPGA gates and open-source ASIC tapeout on SkyWater 130nm via Tiny Tapeout."
+      "title": "Hardware Bring-Up",
+      "description": "FPGA bring-up and ASIC tapeout on SkyWater 130nm via Tiny Tapeout.",
+      "amount": {
+        "currency": "INR",
+        "value": 85000
+      }
     }
   ]
 }
