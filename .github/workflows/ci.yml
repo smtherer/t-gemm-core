@@ -1,0 +1,30 @@
+name: RTL Verification & Gate Synthesis
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  eda-verification:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Open-Source EDA Toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y iverilog yosys python3 python3-numpy
+
+      - name: Check EDA Tool Versions
+        run: |
+          iverilog -V
+          yosys -version
+
+      - name: Run Cycle-Accurate Systolic Simulation
+        run: make sim
+
+      - name: Run Gate-Level Synthesis & Resource Audit
+        run: make synth
